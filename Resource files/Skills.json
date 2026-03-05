@@ -1,0 +1,374 @@
+[
+  {
+    "skill": "Python",
+    "aliases": [
+      "python",
+      "python3"
+    ],
+    "domain": "programming"
+  },
+  {
+    "skill": "Java",
+    "aliases": [
+      "java"
+    ],
+    "domain": "programming"
+  },
+  {
+    "skill": "C++",
+    "aliases": [
+      "c++",
+      "cpp"
+    ],
+    "domain": "programming"
+  },
+  {
+    "skill": "C",
+    "aliases": [
+      "c language"
+    ],
+    "domain": "programming"
+  },
+  {
+    "skill": "JavaScript",
+    "aliases": [
+      "javascript",
+      "js"
+    ],
+    "domain": "programming"
+  },
+  {
+    "skill": "SQL",
+    "aliases": [
+      "sql",
+      "structured query language"
+    ],
+    "domain": "database"
+  },
+  {
+    "skill": "Django",
+    "aliases": [
+      "django"
+    ],
+    "domain": "backend"
+  },
+  {
+    "skill": "Flask",
+    "aliases": [
+      "flask"
+    ],
+    "domain": "backend"
+  },
+  {
+    "skill": "FastAPI",
+    "aliases": [
+      "fastapi"
+    ],
+    "domain": "backend"
+  },
+  {
+    "skill": "Spring Boot",
+    "aliases": [
+      "spring boot",
+      "springboot"
+    ],
+    "domain": "backend"
+  },
+  {
+    "skill": "Node.js",
+    "aliases": [
+      "node.js",
+      "nodejs"
+    ],
+    "domain": "backend"
+  },
+  {
+    "skill": "Express.js",
+    "aliases": [
+      "express",
+      "express.js"
+    ],
+    "domain": "backend"
+  },
+  {
+    "skill": "Machine Learning",
+    "aliases": [
+      "machine learning",
+      "ml"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "Deep Learning",
+    "aliases": [
+      "deep learning",
+      "dl"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "Natural Language Processing",
+    "aliases": [
+      "natural language processing",
+      "nlp"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "Computer Vision",
+    "aliases": [
+      "computer vision",
+      "cv"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "Data Analysis",
+    "aliases": [
+      "data analysis"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "Data Science",
+    "aliases": [
+      "data science"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "NumPy",
+    "aliases": [
+      "numpy"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "Pandas",
+    "aliases": [
+      "pandas"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "Scikit-learn",
+    "aliases": [
+      "scikit-learn",
+      "sklearn"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "TensorFlow",
+    "aliases": [
+      "tensorflow",
+      "tf"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "PyTorch",
+    "aliases": [
+      "pytorch",
+      "torch"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "Matplotlib",
+    "aliases": [
+      "matplotlib"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "Seaborn",
+    "aliases": [
+      "seaborn"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "MySQL",
+    "aliases": [
+      "mysql"
+    ],
+    "domain": "database"
+  },
+  {
+    "skill": "PostgreSQL",
+    "aliases": [
+      "postgresql",
+      "postgres"
+    ],
+    "domain": "database"
+  },
+  {
+    "skill": "SQLite",
+    "aliases": [
+      "sqlite"
+    ],
+    "domain": "database"
+  },
+  {
+    "skill": "MongoDB",
+    "aliases": [
+      "mongodb",
+      "mongo"
+    ],
+    "domain": "database"
+  },
+  {
+    "skill": "Firebase",
+    "aliases": [
+      "firebase"
+    ],
+    "domain": "database"
+  },
+  {
+    "skill": "Docker",
+    "aliases": [
+      "docker"
+    ],
+    "domain": "devops"
+  },
+  {
+    "skill": "Kubernetes",
+    "aliases": [
+      "kubernetes",
+      "k8s"
+    ],
+    "domain": "devops"
+  },
+  {
+    "skill": "AWS",
+    "aliases": [
+      "aws",
+      "amazon web services"
+    ],
+    "domain": "cloud"
+  },
+  {
+    "skill": "Azure",
+    "aliases": [
+      "azure",
+      "microsoft azure"
+    ],
+    "domain": "cloud"
+  },
+  {
+    "skill": "Google Cloud Platform",
+    "aliases": [
+      "gcp",
+      "google cloud"
+    ],
+    "domain": "cloud"
+  },
+  {
+    "skill": "CI/CD",
+    "aliases": [
+      "ci/cd",
+      "continuous integration",
+      "continuous deployment"
+    ],
+    "domain": "devops"
+  },
+  {
+    "skill": "Git",
+    "aliases": [
+      "git"
+    ],
+    "domain": "tools"
+  },
+  {
+    "skill": "GitHub",
+    "aliases": [
+      "github"
+    ],
+    "domain": "tools"
+  },
+  {
+    "skill": "GitLab",
+    "aliases": [
+      "gitlab"
+    ],
+    "domain": "tools"
+  },
+  {
+    "skill": "Linux",
+    "aliases": [
+      "linux"
+    ],
+    "domain": "os"
+  },
+  {
+    "skill": "Bash",
+    "aliases": [
+      "bash",
+      "shell scripting"
+    ],
+    "domain": "os"
+  },
+  {
+    "skill": "Flutter",
+    "aliases": [
+      "flutter"
+    ],
+    "domain": "frontend"
+  },
+  {
+    "skill": "React",
+    "aliases": [
+      "react",
+      "react.js"
+    ],
+    "domain": "frontend"
+  },
+  {
+    "skill": "HTML",
+    "aliases": [
+      "html"
+    ],
+    "domain": "frontend"
+  },
+  {
+    "skill": "CSS",
+    "aliases": [
+      "css"
+    ],
+    "domain": "frontend"
+  },
+  {
+    "skill": "Data Structures and Algorithms",
+    "aliases": [
+      "dsa",
+      "data structures",
+      "algorithms"
+    ],
+    "domain": "cs-fundamentals"
+  },
+  {
+    "skill": "Object Oriented Programming",
+    "aliases": [
+      "oop",
+      "object oriented programming"
+    ],
+    "domain": "cs-fundamentals"
+  },
+  {
+    "skill": "System Design",
+    "aliases": [
+      "system design"
+    ],
+    "domain": "cs-fundamentals"
+  },
+  {
+    "skill": "REST APIs",
+    "aliases": [
+      "rest",
+      "rest api",
+      "restful api"
+    ],
+    "domain": "backend"
+  }
+]

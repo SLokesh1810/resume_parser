@@ -1,0 +1,149 @@
+[
+  {
+    "canonical": "summary",
+    "aliases": [
+      "summary",
+      "professional summary",
+      "profile",
+      "career summary",
+      "about me",
+      "objective",
+      "career objective",
+      "about"
+    ]
+  },
+  {
+    "canonical": "education",
+    "aliases": [
+      "education",
+      "academic background",
+      "educational background",
+      "academics",
+      "academics",
+      "education details",
+      "qualifications"
+    ]
+  },
+  {
+    "canonical": "experience",
+    "aliases": [
+      "experience",
+      "work experience",
+      "professional experience",
+      "employment history",
+      "work history",
+      "industry experience",
+      "employment"
+    ]
+  },
+  {
+    "canonical": "internships",
+    "aliases": [
+      "internships",
+      "internship experience",
+      "industrial training",
+      "training experience",
+      "summer internship"
+    ]
+  },
+  {
+    "canonical": "projects",
+    "aliases": [
+      "projects",
+      "academic projects",
+      "personal projects",
+      "key projects",
+      "project experience"
+    ]
+  },
+  {
+    "canonical": "skills",
+    "aliases": [
+      "skills",
+      "technical skills",
+      "core skills",
+      "skill set",
+      "competencies",
+      "expertise"
+    ]
+  },
+  {
+    "canonical": "certifications",
+    "aliases": [
+      "certifications",
+      "certificates",
+      "professional certifications",
+      "licenses",
+      "credentials"
+    ]
+  },
+  {
+    "canonical": "achievements",
+    "aliases": [
+      "achievements",
+      "awards",
+      "honors",
+      "accomplishments"
+    ]
+  },
+  {
+    "canonical": "research",
+    "aliases": [
+      "research",
+      "publications",
+      "research work",
+      "papers",
+      "journals"
+    ]
+  },
+  {
+    "canonical": "hackathons",
+    "aliases": [
+      "hackathons",
+      "competitions",
+      "contests",
+      "coding competitions"
+    ]
+  },
+  {
+    "canonical": "leadership",
+    "aliases": [
+      "leadership",
+      "positions of responsibility",
+      "por",
+      "leadership experience"
+    ]
+  },
+  {
+    "canonical": "volunteering",
+    "aliases": [
+      "volunteering",
+      "volunteer experience",
+      "social work",
+      "community service",
+      "extracurricular activities"
+    ]
+  },
+  {
+    "canonical": "training",
+    "aliases": [
+      "training",
+      "workshops",
+      "industrial training",
+      "professional training"
+    ]
+  },
+  {
+    "canonical": "interests",
+    "aliases": [
+      "interests",
+      "hobbies"
+    ]
+  },
+  {
+    "canonical": "references",
+    "aliases": [
+      "references"
+    ]
+  }
+]

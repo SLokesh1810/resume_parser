@@ -1,0 +1,483 @@
+[
+  {
+    "canonical": "Software Engineering Intern",
+    "category": "internship",
+    "aliases": [
+      "software intern",
+      "software engineering intern",
+      "software engineering internship",
+      "swe intern"
+    ]
+  },
+  {
+    "canonical": "Data Science Intern",
+    "category": "internship",
+    "aliases": [
+      "data science intern",
+      "data analyst intern",
+      "data science internship"
+    ]
+  },
+  {
+    "canonical": "Machine Learning Intern",
+    "category": "internship",
+    "aliases": [
+      "machine learning intern",
+      "machine learning internship",
+      "ml intern"
+    ]
+  },
+  {
+    "canonical": "Backend Developer Intern",
+    "category": "internship",
+    "aliases": [
+      "backend intern",
+      "backend developer intern",
+      "backend developer internship"
+    ]
+  },
+  {
+    "canonical": "Frontend Developer Intern",
+    "category": "internship",
+    "aliases": [
+      "frontend intern",
+      "frontend developer intern",
+      "frontend developer internship"
+    ]
+  },
+  {
+    "canonical": "Full Stack Developer Intern",
+    "category": "internship",
+    "aliases": [
+      "full stack intern",
+      "fullstack intern",
+      "full stack internship"
+    ]
+  },
+  {
+    "canonical": "DevOps Intern",
+    "category": "internship",
+    "aliases": [
+      "devops intern",
+      "devops internship"
+    ]
+  },
+  {
+    "canonical": "Cloud Intern",
+    "category": "internship",
+    "aliases": [
+      "cloud intern",
+      "cloud internship"
+    ]
+  },
+  {
+    "canonical": "Research Intern",
+    "category": "internship",
+    "aliases": [
+      "research intern",
+      "research internship"
+    ]
+  },
+  {
+    "canonical": "Teaching Assistant",
+    "category": "internship",
+    "aliases": [
+      "teaching assistant",
+      "teaching assistant internship",
+      "ta"
+    ]
+  },
+  {
+    "canonical": "Software Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "software engineer",
+      "swe"
+    ]
+  },
+  {
+    "canonical": "Junior Software Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "junior software engineer",
+      "jse"
+    ]
+  },
+  {
+    "canonical": "Data Analyst",
+    "category": "entry-level",
+    "aliases": [
+      "data analyst"
+    ]
+  },
+  {
+    "canonical": "Data Scientist",
+    "category": "entry-level",
+    "aliases": [
+      "data scientist"
+    ]
+  },
+  {
+    "canonical": "Machine Learning Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "machine learning engineer",
+      "ml engineer"
+    ]
+  },
+  {
+    "canonical": "Backend Developer",
+    "category": "entry-level",
+    "aliases": [
+      "backend developer"
+    ]
+  },
+  {
+    "canonical": "Frontend Developer",
+    "category": "entry-level",
+    "aliases": [
+      "frontend developer"
+    ]
+  },
+  {
+    "canonical": "Full Stack Developer",
+    "category": "entry-level",
+    "aliases": [
+      "full stack developer",
+      "fullstack developer"
+    ]
+  },
+  {
+    "canonical": "QA Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "qa engineer",
+      "test engineer"
+    ]
+  },
+  {
+    "canonical": "Senior Software Engineer",
+    "category": "mid-level",
+    "aliases": [
+      "senior software engineer",
+      "sse"
+    ]
+  },
+  {
+    "canonical": "Senior Backend Developer",
+    "category": "mid-level",
+    "aliases": [
+      "senior backend developer"
+    ]
+  },
+  {
+    "canonical": "Senior Data Scientist",
+    "category": "mid-level",
+    "aliases": [
+      "senior data scientist"
+    ]
+  },
+  {
+    "canonical": "Senior Machine Learning Engineer",
+    "category": "mid-level",
+    "aliases": [
+      "senior machine learning engineer"
+    ]
+  },
+  {
+    "canonical": "DevOps Engineer",
+    "category": "mid-level",
+    "aliases": [
+      "devops engineer"
+    ]
+  },
+  {
+    "canonical": "Cloud Engineer",
+    "category": "mid-level",
+    "aliases": [
+      "cloud engineer"
+    ]
+  },
+  {
+    "canonical": "Tech Lead",
+    "category": "leadership",
+    "aliases": [
+      "tech lead",
+      "technical lead"
+    ]
+  },
+  {
+    "canonical": "Engineering Manager",
+    "category": "leadership",
+    "aliases": [
+      "engineering manager"
+    ]
+  },
+  {
+    "canonical": "Software Architect",
+    "category": "leadership",
+    "aliases": [
+      "software architect",
+      "system architect"
+    ]
+  },
+  {
+    "canonical": "Business Analyst",
+    "category": "entry-level",
+    "aliases": [
+      "business analyst"
+    ]
+  },
+  {
+    "canonical": "Product Manager",
+    "category": "mid-level",
+    "aliases": [
+      "product manager",
+      "pm"
+    ]
+  },
+  {
+    "canonical": "Project Manager",
+    "category": "mid-level",
+    "aliases": [
+      "project manager"
+    ]
+  },
+  {
+    "canonical": "Program Manager",
+    "category": "mid-level",
+    "aliases": [
+      "program manager"
+    ]
+  },
+  {
+    "canonical": "Operations Manager",
+    "category": "mid-level",
+    "aliases": [
+      "operations manager"
+    ]
+  },
+  {
+    "canonical": "Accountant",
+    "category": "entry-level",
+    "aliases": [
+      "accountant"
+    ]
+  },
+  {
+    "canonical": "Financial Analyst",
+    "category": "entry-level",
+    "aliases": [
+      "financial analyst"
+    ]
+  },
+  {
+    "canonical": "Chartered Accountant",
+    "category": "senior",
+    "aliases": [
+      "chartered accountant",
+      "ca"
+    ]
+  },
+  {
+    "canonical": "Auditor",
+    "category": "mid-level",
+    "aliases": [
+      "auditor"
+    ]
+  },
+  {
+    "canonical": "Digital Marketing Executive",
+    "category": "entry-level",
+    "aliases": [
+      "digital marketing executive",
+      "digital marketer"
+    ]
+  },
+  {
+    "canonical": "SEO Specialist",
+    "category": "entry-level",
+    "aliases": [
+      "seo specialist"
+    ]
+  },
+  {
+    "canonical": "Marketing Manager",
+    "category": "mid-level",
+    "aliases": [
+      "marketing manager"
+    ]
+  },
+  {
+    "canonical": "Sales Executive",
+    "category": "entry-level",
+    "aliases": [
+      "sales executive"
+    ]
+  },
+  {
+    "canonical": "Business Development Executive",
+    "category": "entry-level",
+    "aliases": [
+      "business development executive",
+      "bde"
+    ]
+  },
+  {
+    "canonical": "HR Executive",
+    "category": "entry-level",
+    "aliases": [
+      "hr executive"
+    ]
+  },
+  {
+    "canonical": "HR Manager",
+    "category": "mid-level",
+    "aliases": [
+      "hr manager"
+    ]
+  },
+  {
+    "canonical": "Talent Acquisition Specialist",
+    "category": "mid-level",
+    "aliases": [
+      "talent acquisition specialist",
+      "recruiter"
+    ]
+  },
+  {
+    "canonical": "Mechanical Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "mechanical engineer"
+    ]
+  },
+  {
+    "canonical": "Design Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "design engineer"
+    ]
+  },
+  {
+    "canonical": "Production Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "production engineer"
+    ]
+  },
+  {
+    "canonical": "Electrical Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "electrical engineer"
+    ]
+  },
+  {
+    "canonical": "Electronics Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "electronics engineer"
+    ]
+  },
+  {
+    "canonical": "Embedded Systems Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "embedded engineer",
+      "embedded systems engineer"
+    ]
+  },
+  {
+    "canonical": "Civil Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "civil engineer"
+    ]
+  },
+  {
+    "canonical": "Site Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "site engineer"
+    ]
+  },
+  {
+    "canonical": "Structural Engineer",
+    "category": "mid-level",
+    "aliases": [
+      "structural engineer"
+    ]
+  },
+  {
+    "canonical": "Clinical Research Associate",
+    "category": "entry-level",
+    "aliases": [
+      "clinical research associate",
+      "cra"
+    ]
+  },
+  {
+    "canonical": "Medical Officer",
+    "category": "mid-level",
+    "aliases": [
+      "medical officer"
+    ]
+  },
+  {
+    "canonical": "Healthcare Administrator",
+    "category": "mid-level",
+    "aliases": [
+      "healthcare administrator"
+    ]
+  },
+  {
+    "canonical": "Lecturer",
+    "category": "mid-level",
+    "aliases": [
+      "lecturer"
+    ]
+  },
+  {
+    "canonical": "Assistant Professor",
+    "category": "mid-level",
+    "aliases": [
+      "assistant professor"
+    ]
+  },
+  {
+    "canonical": "Professor",
+    "category": "senior",
+    "aliases": [
+      "professor"
+    ]
+  },
+  {
+    "canonical": "Graphic Designer",
+    "category": "entry-level",
+    "aliases": [
+      "graphic designer"
+    ]
+  },
+  {
+    "canonical": "UI Designer",
+    "category": "entry-level",
+    "aliases": [
+      "ui designer"
+    ]
+  },
+  {
+    "canonical": "UX Designer",
+    "category": "entry-level",
+    "aliases": [
+      "ux designer"
+    ]
+  },
+  {
+    "canonical": "Product Designer",
+    "category": "mid-level",
+    "aliases": [
+      "product designer"
+    ]
+  }
+]

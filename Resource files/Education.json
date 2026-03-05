@@ -1,0 +1,385 @@
+[
+  {
+    "canonical": "Bachelor of Technology",
+    "level": "bachelor",
+    "aliases": [
+      "b.tech",
+      "btech",
+      "b. tech",
+      "bachelor of technology"
+    ],
+    "specializations": [
+      "information technology",
+      "it",
+      "computer science",
+      "cse",
+      "computer science engineering",
+      "artificial intelligence",
+      "data science",
+      "machine learning",
+      "electronics and communication",
+      "ece",
+      "electrical and electronics",
+      "eee",
+      "mechanical engineering",
+      "civil engineering",
+      "biotechnology",
+      "robotics",
+      "mechatronics"
+    ]
+  },
+  {
+    "canonical": "Bachelor of Engineering",
+    "level": "bachelor",
+    "aliases": [
+      "b.e",
+      "be",
+      "b. e",
+      "bachelor of engineering"
+    ],
+    "specializations": [
+      "computer engineering",
+      "mechanical engineering",
+      "civil engineering",
+      "electrical engineering",
+      "electronics engineering",
+      "information technology",
+      "industrial engineering"
+    ]
+  },
+  {
+    "canonical": "Bachelor of Science",
+    "level": "bachelor",
+    "aliases": [
+      "b.sc",
+      "bsc",
+      "bachelor of science"
+    ],
+    "specializations": [
+      "computer science",
+      "mathematics",
+      "physics",
+      "chemistry",
+      "statistics",
+      "data science",
+      "biotechnology",
+      "microbiology",
+      "information technology"
+    ]
+  },
+  {
+    "canonical": "Bachelor of Arts",
+    "level": "bachelor",
+    "aliases": [
+      "b.a",
+      "ba",
+      "bachelor of arts"
+    ],
+    "specializations": [
+      "english",
+      "economics",
+      "history",
+      "political science",
+      "psychology",
+      "sociology",
+      "philosophy"
+    ]
+  },
+  {
+    "canonical": "Bachelor of Commerce",
+    "level": "bachelor",
+    "aliases": [
+      "b.com",
+      "bcom",
+      "bachelor of commerce"
+    ],
+    "specializations": [
+      "accounting",
+      "finance",
+      "banking",
+      "taxation",
+      "business economics",
+      "corporate accounting"
+    ]
+  },
+  {
+    "canonical": "Bachelor of Computer Applications",
+    "level": "bachelor",
+    "aliases": [
+      "bca",
+      "bachelor of computer applications"
+    ],
+    "specializations": [
+      "computer applications",
+      "software development",
+      "web development",
+      "data analytics",
+      "cloud computing"
+    ]
+  },
+  {
+    "canonical": "Bachelor of Business Administration",
+    "level": "bachelor",
+    "aliases": [
+      "bba",
+      "bachelor of business administration"
+    ],
+    "specializations": [
+      "finance",
+      "marketing",
+      "human resources",
+      "operations",
+      "business analytics",
+      "international business"
+    ]
+  },
+  {
+    "canonical": "Bachelor of Management Studies",
+    "level": "bachelor",
+    "aliases": [
+      "bms",
+      "bachelor of management studies"
+    ],
+    "specializations": [
+      "management",
+      "finance",
+      "marketing",
+      "operations",
+      "strategy"
+    ]
+  },
+  {
+    "canonical": "Bachelor of Law",
+    "level": "bachelor",
+    "aliases": [
+      "llb",
+      "bachelor of law"
+    ],
+    "specializations": [
+      "corporate law",
+      "criminal law",
+      "civil law",
+      "constitutional law",
+      "intellectual property law"
+    ]
+  },
+  {
+    "canonical": "Master of Technology",
+    "level": "master",
+    "aliases": [
+      "m.tech",
+      "mtech",
+      "master of technology"
+    ],
+    "specializations": [
+      "computer science",
+      "information technology",
+      "artificial intelligence",
+      "data science",
+      "machine learning",
+      "electronics",
+      "power systems",
+      "structural engineering"
+    ]
+  },
+  {
+    "canonical": "Master of Engineering",
+    "level": "master",
+    "aliases": [
+      "m.e",
+      "me",
+      "master of engineering"
+    ],
+    "specializations": [
+      "computer engineering",
+      "mechanical engineering",
+      "civil engineering",
+      "electrical engineering",
+      "electronics engineering"
+    ]
+  },
+  {
+    "canonical": "Master of Science",
+    "level": "master",
+    "aliases": [
+      "m.sc",
+      "msc",
+      "master of science"
+    ],
+    "specializations": [
+      "computer science",
+      "data science",
+      "mathematics",
+      "physics",
+      "chemistry",
+      "statistics",
+      "biotechnology"
+    ]
+  },
+  {
+    "canonical": "Master of Arts",
+    "level": "master",
+    "aliases": [
+      "m.a",
+      "ma",
+      "master of arts"
+    ],
+    "specializations": [
+      "economics",
+      "english",
+      "history",
+      "political science",
+      "psychology",
+      "sociology"
+    ]
+  },
+  {
+    "canonical": "Master of Business Administration",
+    "level": "master",
+    "aliases": [
+      "mba",
+      "master of business administration"
+    ],
+    "specializations": [
+      "finance",
+      "marketing",
+      "human resources",
+      "operations",
+      "business analytics",
+      "strategy",
+      "international business"
+    ]
+  },
+  {
+    "canonical": "Master of Computer Applications",
+    "level": "master",
+    "aliases": [
+      "mca",
+      "master of computer applications"
+    ],
+    "specializations": [
+      "software development",
+      "cloud computing",
+      "data science",
+      "artificial intelligence",
+      "web technologies"
+    ]
+  },
+  {
+    "canonical": "Master of Law",
+    "level": "master",
+    "aliases": [
+      "llm",
+      "master of law"
+    ],
+    "specializations": [
+      "corporate law",
+      "international law",
+      "criminal law",
+      "intellectual property law"
+    ]
+  },
+  {
+    "canonical": "Doctor of Philosophy",
+    "level": "doctorate",
+    "aliases": [
+      "phd",
+      "ph.d",
+      "doctor of philosophy"
+    ],
+    "specializations": [
+      "computer science",
+      "engineering",
+      "management",
+      "science",
+      "humanities"
+    ]
+  },
+  {
+    "canonical": "Diploma",
+    "level": "diploma",
+    "aliases": [
+      "diploma"
+    ],
+    "specializations": [
+      "mechanical",
+      "civil",
+      "electrical",
+      "electronics",
+      "computer engineering",
+      "information technology"
+    ]
+  },
+  {
+    "canonical": "Postgraduate Diploma",
+    "level": "postgraduate diploma",
+    "aliases": [
+      "pg diploma",
+      "pgdip",
+      "postgraduate diploma"
+    ],
+    "specializations": [
+      "data science",
+      "machine learning",
+      "business analytics",
+      "finance",
+      "human resources",
+      "marketing"
+    ]
+  },
+  {
+    "canonical": "Higher Secondary",
+    "level": "school",
+    "aliases": [
+      "higher secondary",
+      "hsc",
+      "12th",
+      "class xii",
+      "senior secondary"
+    ],
+    "specializations": [
+      "science",
+      "commerce",
+      "arts",
+      "pcm",
+      "pcb"
+    ]
+  },
+  {
+    "canonical": "Secondary School",
+    "level": "school",
+    "aliases": [
+      "secondary school",
+      "ssc",
+      "10th",
+      "class x",
+      "matriculation"
+    ],
+    "specializations": []
+  },
+  {
+    "canonical": "Pre-University Course",
+    "level": "school",
+    "aliases": [
+      "puc",
+      "pre-university course"
+    ],
+    "specializations": [
+      "science",
+      "commerce",
+      "arts"
+    ]
+  },
+  {
+    "canonical": "Intermediate",
+    "level": "school",
+    "aliases": [
+      "intermediate"
+    ],
+    "specializations": [
+      "science",
+      "commerce",
+      "arts"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+pypdf==4.0.1
+spacy==3.7.2
+nltk==3.8.1
+notebook
+jupyterlab
+pytesseract
+pdf2image
+pdfplumber
+pillow
+opencv-python
+numpy

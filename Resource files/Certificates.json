@@ -1,0 +1,164 @@
+[
+  {
+    "canonical": "AWS Certified Cloud Practitioner",
+    "issuer": "Amazon Web Services",
+    "aliases": ["aws cloud practitioner", "aws ccp"]
+  },
+  {
+    "canonical": "AWS Certified Solutions Architect – Associate",
+    "issuer": "Amazon Web Services",
+    "aliases": ["aws solutions architect associate", "aws saa"]
+  },
+  {
+    "canonical": "AWS Certified Developer – Associate",
+    "issuer": "Amazon Web Services",
+    "aliases": ["aws developer associate"]
+  },
+  {
+    "canonical": "AWS Certified SysOps Administrator – Associate",
+    "issuer": "Amazon Web Services",
+    "aliases": ["aws sysops associate"]
+  },
+  {
+    "canonical": "Microsoft Azure Fundamentals",
+    "issuer": "Microsoft",
+    "aliases": ["azure fundamentals", "az-900"]
+  },
+  {
+    "canonical": "Microsoft Azure Administrator Associate",
+    "issuer": "Microsoft",
+    "aliases": ["azure administrator associate", "az-104"]
+  },
+  {
+    "canonical": "Google Cloud Associate Cloud Engineer",
+    "issuer": "Google Cloud",
+    "aliases": ["gcp associate cloud engineer"]
+  },
+
+  {
+    "canonical": "Google Data Analytics Professional Certificate",
+    "issuer": "Google",
+    "aliases": ["google data analytics certificate"]
+  },
+  {
+    "canonical": "IBM Data Science Professional Certificate",
+    "issuer": "IBM",
+    "aliases": ["ibm data science certificate"]
+  },
+  {
+    "canonical": "Microsoft Power BI Data Analyst Associate",
+    "issuer": "Microsoft",
+    "aliases": ["power bi data analyst", "pl-300"]
+  },
+
+  {
+    "canonical": "TensorFlow Developer Certificate",
+    "issuer": "Google",
+    "aliases": ["tensorflow developer certificate"]
+  },
+  {
+    "canonical": "AWS Certified Machine Learning – Specialty",
+    "issuer": "Amazon Web Services",
+    "aliases": ["aws machine learning specialty"]
+  },
+  {
+    "canonical": "Microsoft Azure AI Fundamentals",
+    "issuer": "Microsoft",
+    "aliases": ["azure ai fundamentals", "ai-900"]
+  },
+
+  {
+    "canonical": "Red Hat Certified System Administrator",
+    "issuer": "Red Hat",
+    "aliases": ["rhcsa"]
+  },
+  {
+    "canonical": "Red Hat Certified Engineer",
+    "issuer": "Red Hat",
+    "aliases": ["rhce"]
+  },
+  {
+    "canonical": "Docker Certified Associate",
+    "issuer": "Docker",
+    "aliases": ["docker certified associate", "dca"]
+  },
+  {
+    "canonical": "Certified Kubernetes Administrator",
+    "issuer": "CNCF",
+    "aliases": ["cka", "certified kubernetes administrator"]
+  },
+
+  {
+    "canonical": "Certified Ethical Hacker",
+    "issuer": "EC-Council",
+    "aliases": ["ceh", "certified ethical hacker"]
+  },
+  {
+    "canonical": "CompTIA Security+",
+    "issuer": "CompTIA",
+    "aliases": ["security+", "comptia security+"]
+  },
+  {
+    "canonical": "CompTIA Network+",
+    "issuer": "CompTIA",
+    "aliases": ["network+", "comptia network+"]
+  },
+  {
+    "canonical": "CompTIA A+",
+    "issuer": "CompTIA",
+    "aliases": ["a+", "comptia a+"]
+  },
+
+  {
+    "canonical": "Project Management Professional",
+    "issuer": "PMI",
+    "aliases": ["pmp", "project management professional"]
+  },
+  {
+    "canonical": "Certified ScrumMaster",
+    "issuer": "Scrum Alliance",
+    "aliases": ["csm", "certified scrum master"]
+  },
+  {
+    "canonical": "PRINCE2 Foundation",
+    "issuer": "AXELOS",
+    "aliases": ["prince2 foundation"]
+  },
+  {
+    "canonical": "ITIL Foundation",
+    "issuer": "AXELOS",
+    "aliases": ["itil foundation"]
+  },
+
+  {
+    "canonical": "Chartered Financial Analyst",
+    "issuer": "CFA Institute",
+    "aliases": ["cfa"]
+  },
+  {
+    "canonical": "Certified Management Accountant",
+    "issuer": "IMA",
+    "aliases": ["cma"]
+  },
+  {
+    "canonical": "Certified Public Accountant",
+    "issuer": "AICPA",
+    "aliases": ["cpa"]
+  },
+
+  {
+    "canonical": "Graduate Record Examination",
+    "issuer": "ETS",
+    "aliases": ["gre"]
+  },
+  {
+    "canonical": "Test of English as a Foreign Language",
+    "issuer": "ETS",
+    "aliases": ["toefl"]
+  },
+  {
+    "canonical": "International English Language Testing System",
+    "issuer": "IELTS",
+    "aliases": ["ielts"]
+  }
+]
