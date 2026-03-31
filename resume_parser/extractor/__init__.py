@@ -1,0 +1,1 @@
+# extractor sub-package — each module handles one extraction concern.
