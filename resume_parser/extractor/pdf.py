@@ -103,14 +103,11 @@ def extract_pdf(pdf_path, poppler_path=None, extractors: dict = None) -> tuple[s
     failed_checks = 0
 
     if extractors:
-        personal_info = extractors["personal_info"](cleaned)
         sections      = extractors["sections"](cleaned)
         skills        = extractors["skills"](sections.get("skills", cleaned))
         education     = extractors["education"](sections.get("education", ""))
         experience    = extractors["experience"](sections.get("experience", ""))
 
-        if not personal_info:
-            failed_checks += 1
         if not sections:
             failed_checks += 1
         if not skills:
