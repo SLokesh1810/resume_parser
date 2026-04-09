@@ -25,7 +25,6 @@ from resume_parser.utils import clean_text
 
 from resume_parser.extractor.pdf          import extract_pdf
 from resume_parser.extractor.sections     import extract_sections, extract_sections_ocr
-from resume_parser.extractor.personal     import extract_personal_info
 from resume_parser.extractor.skills       import extract_skills
 from resume_parser.extractor.education    import extract_education
 from resume_parser.extractor.experience   import extract_experience
@@ -87,7 +86,6 @@ class ResumeParser:
         # Pass lightweight extractor callables so extract_pdf can do its
         # quality-check without importing this module (avoids circular imports).
         quality_extractors = {
-            "personal_info": extract_personal_info,
             "sections":      self._section_extractor,
             "skills":        lambda t: extract_skills(t, self._skills_db),
             "education":     lambda t: extract_education(t, self._education_db),
@@ -107,7 +105,6 @@ class ResumeParser:
             sections = extract_sections_ocr(text, self._section_headers)
 
         return {
-            "personal_info":  extract_personal_info(text),
             "education":      extract_education(sections.get("education", ""),    self._education_db),
             "skills":         extract_skills(sections.get("skills", text),        self._skills_db),
             "experience":     extract_experience(sections.get("experience", ""),  self._job_roles_db),
