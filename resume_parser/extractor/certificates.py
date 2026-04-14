@@ -37,17 +37,12 @@ NON_STANDARD_CERT_REGEX = r"""
 """
 
 
-def extract_certificates(cert_text: str, certs_db: list[dict]) -> list[dict]:
+def extract_certificates(cert_text: str, certs_db: list[dict]) -> dict:
     """
-    Match text against the standard certifications knowledge-base.
-
-    Args:
-        cert_text (str)       : Text from the certifications section.
-        certs_db  (list[dict]): Knowledge-base; each entry has "canonical",
-                                "aliases", and optionally "issuer".
+    Combine standard and non-standard certificate extraction.
 
     Returns:
-        list[dict]: Each dict has keys: name, issuer, type="standard".
+        dict with keys "standard" and "non_standard", each a list of dicts.
     """
     if not cert_text:
         return []
@@ -71,42 +66,3 @@ def extract_certificates(cert_text: str, certs_db: list[dict]) -> list[dict]:
                 break  # stop at first matching alias
 
     return found
-
-
-def extract_non_standard_certificates(cert_text: str) -> list[dict]:
-    """
-    Use a regex to detect online-platform / MOOC certificates.
-
-    Args:
-        cert_text (str): Text from the certifications section.
-
-    Returns:
-        list[dict]: Each dict has keys: name, issuer, type="non-standard".
-    """
-    if not cert_text:
-        return []
-
-    text = normalize_text(cert_text)
-    matches: list[dict] = []
-
-    for m in re.finditer(NON_STANDARD_CERT_REGEX, text, re.I | re.VERBOSE):
-        matches.append({
-            "name":   m.group().strip(),
-            "issuer": m.group(1).title(),
-            "type":   "non-standard",
-        })
-
-    return matches
-
-
-def extract_all_certificates(cert_text: str, certs_db: list[dict]) -> dict:
-    """
-    Combine standard and non-standard certificate extraction.
-
-    Returns:
-        dict with keys "standard" and "non_standard", each a list of dicts.
-    """
-    return {
-        "standard":     extract_certificates(cert_text, certs_db),
-        "non_standard": extract_non_standard_certificates(cert_text),
-    }

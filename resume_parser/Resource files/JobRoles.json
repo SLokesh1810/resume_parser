@@ -479,5 +479,49 @@
     "aliases": [
       "product designer"
     ]
+  },
+  {
+    "canonical": "Site Reliability Engineer",
+    "category": "mid-level",
+    "aliases": [
+      "sre",
+      "site reliability engineer"
+    ]
+  },
+  {
+    "canonical": "Data Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "data engineer"
+    ]
+  },
+  {
+    "canonical": "AI Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "ai engineer"
+    ]
+  },
+  {
+    "canonical": "MLOps Engineer",
+    "category": "mid-level",
+    "aliases": [
+      "mlops engineer"
+    ]
+  },
+  {
+    "canonical": "Platform Engineer",
+    "category": "mid-level",
+    "aliases": [
+      "platform engineer"
+    ]
+  },
+  {
+    "canonical": "Security Engineer",
+    "category": "entry-level",
+    "aliases": [
+      "security engineer",
+      "cybersecurity engineer"
+    ]
   }
 ]

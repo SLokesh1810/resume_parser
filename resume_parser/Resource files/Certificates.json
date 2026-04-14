@@ -2,163 +2,261 @@
   {
     "canonical": "AWS Certified Cloud Practitioner",
     "issuer": "Amazon Web Services",
-    "aliases": ["aws cloud practitioner", "aws ccp"]
+    "aliases": [
+      "aws cloud practitioner",
+      "aws ccp"
+    ]
   },
   {
     "canonical": "AWS Certified Solutions Architect – Associate",
     "issuer": "Amazon Web Services",
-    "aliases": ["aws solutions architect associate", "aws saa"]
+    "aliases": [
+      "aws solutions architect associate",
+      "aws saa"
+    ]
   },
   {
     "canonical": "AWS Certified Developer – Associate",
     "issuer": "Amazon Web Services",
-    "aliases": ["aws developer associate"]
+    "aliases": [
+      "aws developer associate"
+    ]
   },
   {
     "canonical": "AWS Certified SysOps Administrator – Associate",
     "issuer": "Amazon Web Services",
-    "aliases": ["aws sysops associate"]
+    "aliases": [
+      "aws sysops associate"
+    ]
   },
   {
     "canonical": "Microsoft Azure Fundamentals",
     "issuer": "Microsoft",
-    "aliases": ["azure fundamentals", "az-900"]
+    "aliases": [
+      "azure fundamentals",
+      "az-900"
+    ]
   },
   {
     "canonical": "Microsoft Azure Administrator Associate",
     "issuer": "Microsoft",
-    "aliases": ["azure administrator associate", "az-104"]
+    "aliases": [
+      "azure administrator associate",
+      "az-104"
+    ]
   },
   {
     "canonical": "Google Cloud Associate Cloud Engineer",
     "issuer": "Google Cloud",
-    "aliases": ["gcp associate cloud engineer"]
+    "aliases": [
+      "gcp associate cloud engineer"
+    ]
   },
-
   {
     "canonical": "Google Data Analytics Professional Certificate",
     "issuer": "Google",
-    "aliases": ["google data analytics certificate"]
+    "aliases": [
+      "google data analytics certificate"
+    ]
   },
   {
     "canonical": "IBM Data Science Professional Certificate",
     "issuer": "IBM",
-    "aliases": ["ibm data science certificate"]
+    "aliases": [
+      "ibm data science certificate"
+    ]
   },
   {
     "canonical": "Microsoft Power BI Data Analyst Associate",
     "issuer": "Microsoft",
-    "aliases": ["power bi data analyst", "pl-300"]
+    "aliases": [
+      "power bi data analyst",
+      "pl-300"
+    ]
   },
-
   {
     "canonical": "TensorFlow Developer Certificate",
     "issuer": "Google",
-    "aliases": ["tensorflow developer certificate"]
+    "aliases": [
+      "tensorflow developer certificate"
+    ]
   },
   {
     "canonical": "AWS Certified Machine Learning – Specialty",
     "issuer": "Amazon Web Services",
-    "aliases": ["aws machine learning specialty"]
+    "aliases": [
+      "aws machine learning specialty"
+    ]
   },
   {
     "canonical": "Microsoft Azure AI Fundamentals",
     "issuer": "Microsoft",
-    "aliases": ["azure ai fundamentals", "ai-900"]
+    "aliases": [
+      "azure ai fundamentals",
+      "ai-900"
+    ]
   },
-
   {
     "canonical": "Red Hat Certified System Administrator",
     "issuer": "Red Hat",
-    "aliases": ["rhcsa"]
+    "aliases": [
+      "rhcsa"
+    ]
   },
   {
     "canonical": "Red Hat Certified Engineer",
     "issuer": "Red Hat",
-    "aliases": ["rhce"]
+    "aliases": [
+      "rhce"
+    ]
   },
   {
     "canonical": "Docker Certified Associate",
     "issuer": "Docker",
-    "aliases": ["docker certified associate", "dca"]
+    "aliases": [
+      "docker certified associate",
+      "dca"
+    ]
   },
   {
     "canonical": "Certified Kubernetes Administrator",
     "issuer": "CNCF",
-    "aliases": ["cka", "certified kubernetes administrator"]
+    "aliases": [
+      "cka",
+      "certified kubernetes administrator"
+    ]
   },
-
   {
     "canonical": "Certified Ethical Hacker",
     "issuer": "EC-Council",
-    "aliases": ["ceh", "certified ethical hacker"]
+    "aliases": [
+      "ceh",
+      "certified ethical hacker"
+    ]
   },
   {
     "canonical": "CompTIA Security+",
     "issuer": "CompTIA",
-    "aliases": ["security+", "comptia security+"]
+    "aliases": [
+      "security+",
+      "comptia security+"
+    ]
   },
   {
     "canonical": "CompTIA Network+",
     "issuer": "CompTIA",
-    "aliases": ["network+", "comptia network+"]
+    "aliases": [
+      "network+",
+      "comptia network+"
+    ]
   },
   {
     "canonical": "CompTIA A+",
     "issuer": "CompTIA",
-    "aliases": ["a+", "comptia a+"]
+    "aliases": [
+      "a+",
+      "comptia a+"
+    ]
   },
-
   {
     "canonical": "Project Management Professional",
     "issuer": "PMI",
-    "aliases": ["pmp", "project management professional"]
+    "aliases": [
+      "pmp",
+      "project management professional"
+    ]
   },
   {
     "canonical": "Certified ScrumMaster",
     "issuer": "Scrum Alliance",
-    "aliases": ["csm", "certified scrum master"]
+    "aliases": [
+      "csm",
+      "certified scrum master"
+    ]
   },
   {
     "canonical": "PRINCE2 Foundation",
     "issuer": "AXELOS",
-    "aliases": ["prince2 foundation"]
+    "aliases": [
+      "prince2 foundation"
+    ]
   },
   {
     "canonical": "ITIL Foundation",
     "issuer": "AXELOS",
-    "aliases": ["itil foundation"]
+    "aliases": [
+      "itil foundation"
+    ]
   },
-
   {
     "canonical": "Chartered Financial Analyst",
     "issuer": "CFA Institute",
-    "aliases": ["cfa"]
+    "aliases": [
+      "cfa"
+    ]
   },
   {
     "canonical": "Certified Management Accountant",
     "issuer": "IMA",
-    "aliases": ["cma"]
+    "aliases": [
+      "cma"
+    ]
   },
   {
     "canonical": "Certified Public Accountant",
     "issuer": "AICPA",
-    "aliases": ["cpa"]
+    "aliases": [
+      "cpa"
+    ]
   },
-
   {
     "canonical": "Graduate Record Examination",
     "issuer": "ETS",
-    "aliases": ["gre"]
+    "aliases": [
+      "gre"
+    ]
   },
   {
     "canonical": "Test of English as a Foreign Language",
     "issuer": "ETS",
-    "aliases": ["toefl"]
+    "aliases": [
+      "toefl"
+    ]
   },
   {
     "canonical": "International English Language Testing System",
     "issuer": "IELTS",
-    "aliases": ["ielts"]
+    "aliases": [
+      "ielts"
+    ]
+  },
+  {
+    "canonical": "AWS Certified DevOps Engineer – Professional",
+    "issuer": "Amazon Web Services",
+    "aliases": [
+      "aws devops professional"
+    ]
+  },
+  {
+    "canonical": "Google Professional Data Engineer",
+    "issuer": "Google Cloud",
+    "aliases": [
+      "gcp data engineer"
+    ]
+  },
+  {
+    "canonical": "Microsoft Azure Data Engineer Associate",
+    "issuer": "Microsoft",
+    "aliases": [
+      "azure data engineer",
+      "dp-203"
+    ]
+  },
+  {
+    "canonical": "Certified Kubernetes Application Developer",
+    "issuer": "CNCF",
+    "aliases": [
+      "ckad"
+    ]
   }
 ]

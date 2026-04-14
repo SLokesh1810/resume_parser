@@ -370,5 +370,160 @@
       "restful api"
     ],
     "domain": "backend"
+  },
+  {
+    "skill": "Go",
+    "aliases": [
+      "go",
+      "golang"
+    ],
+    "domain": "programming"
+  },
+  {
+    "skill": "Rust",
+    "aliases": [
+      "rust"
+    ],
+    "domain": "programming"
+  },
+  {
+    "skill": "TypeScript",
+    "aliases": [
+      "typescript",
+      "ts"
+    ],
+    "domain": "programming"
+  },
+  {
+    "skill": "Next.js",
+    "aliases": [
+      "next.js",
+      "nextjs"
+    ],
+    "domain": "frontend"
+  },
+  {
+    "skill": "Tailwind CSS",
+    "aliases": [
+      "tailwind",
+      "tailwind css"
+    ],
+    "domain": "frontend"
+  },
+  {
+    "skill": "Redux",
+    "aliases": [
+      "redux"
+    ],
+    "domain": "frontend"
+  },
+  {
+    "skill": "GraphQL",
+    "aliases": [
+      "graphql"
+    ],
+    "domain": "backend"
+  },
+  {
+    "skill": "gRPC",
+    "aliases": [
+      "grpc"
+    ],
+    "domain": "backend"
+  },
+  {
+    "skill": "Terraform",
+    "aliases": [
+      "terraform"
+    ],
+    "domain": "devops"
+  },
+  {
+    "skill": "Ansible",
+    "aliases": [
+      "ansible"
+    ],
+    "domain": "devops"
+  },
+  {
+    "skill": "Jenkins",
+    "aliases": [
+      "jenkins"
+    ],
+    "domain": "devops"
+  },
+  {
+    "skill": "Apache Spark",
+    "aliases": [
+      "spark",
+      "apache spark"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "Hadoop",
+    "aliases": [
+      "hadoop"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "Airflow",
+    "aliases": [
+      "apache airflow",
+      "airflow"
+    ],
+    "domain": "data"
+  },
+  {
+    "skill": "LangChain",
+    "aliases": [
+      "langchain"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "OpenAI API",
+    "aliases": [
+      "openai",
+      "gpt api"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "Transformers",
+    "aliases": [
+      "transformers",
+      "huggingface transformers"
+    ],
+    "domain": "ai"
+  },
+  {
+    "skill": "JUnit",
+    "aliases": [
+      "junit"
+    ],
+    "domain": "testing"
+  },
+  {
+    "skill": "PyTest",
+    "aliases": [
+      "pytest"
+    ],
+    "domain": "testing"
+  },
+  {
+    "skill": "Selenium",
+    "aliases": [
+      "selenium"
+    ],
+    "domain": "testing"
+  },
+  {
+    "skill": "Unix",
+    "aliases": [
+      "unix"
+    ],
+    "domain": "os"
   }
 ]

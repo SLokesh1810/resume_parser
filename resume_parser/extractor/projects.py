@@ -78,11 +78,6 @@ def extract_projects(project_text: str, skills_db: list[dict]) -> list[dict]:
         title_raw = title_parts[0]
         project["title"] = re.sub(r"^\d+\.\s*", "", title_raw).strip()
 
-        if len(title_parts) > 1:
-            block = title_parts[1]
-        else:
-            block = block.replace(title_raw, "", 1)
-
         # ── Description ──────────────────────────────────────────────────────
         project["description"] = block.strip()
 

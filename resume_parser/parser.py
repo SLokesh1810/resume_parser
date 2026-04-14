@@ -29,7 +29,7 @@ from resume_parser.extractor.skills       import extract_skills
 from resume_parser.extractor.education    import extract_education
 from resume_parser.extractor.experience   import extract_experience
 from resume_parser.extractor.projects     import extract_projects
-from resume_parser.extractor.certificates import extract_all_certificates
+from resume_parser.extractor.certificates import extract_certificates
 
 
 class ResumeParser:
@@ -109,5 +109,5 @@ class ResumeParser:
             "skills":         extract_skills(sections.get("skills", text),        self._skills_db),
             "experience":     extract_experience(sections.get("experience", ""),  self._job_roles_db),
             "projects":       extract_projects(sections.get("projects", ""),      self._skills_db),
-            "certifications": extract_all_certificates(sections.get("certificates", ""), self._certs_db),
+            "certifications": extract_certificates(sections.get("certificates", ""), self._certs_db),
         }
