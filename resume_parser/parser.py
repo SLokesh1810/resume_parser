@@ -16,6 +16,7 @@ Or directly:
     data = parser.data     # plain Python dict
 """
 
+import re
 import json
 from pathlib import Path
 
@@ -89,25 +90,29 @@ class ResumeParser:
             "sections":      self._section_extractor,
             "skills":        lambda t: extract_skills(t, self._skills_db),
             "education":     lambda t: extract_education(t, self._education_db),
-            "experience":    lambda t: extract_experience(t, self._job_roles_db),
+            "experience":    lambda t: extract_experience(t, self._job_roles_db, self._skills_db),
         }
 
-        text, resume_type = extract_pdf(
+        raw_text, resume_type, design_details = extract_pdf(
             pdf_path,
             poppler_path=self.poppler_path,
             extractors=quality_extractors,
         )
 
         if resume_type == "text":
-            text     = clean_text(text)
+            text     = clean_text(raw_text)
             sections = extract_sections(text, self._section_headers)
         else:
-            sections = extract_sections_ocr(text, self._section_headers)
+            text = re.sub(r"[^\x00-\x7F]+", " ", raw_text)
+            sections = extract_sections_ocr(raw_text, self._section_headers)
 
         return {
             "education":      extract_education(sections.get("education", ""),    self._education_db),
             "skills":         extract_skills(sections.get("skills", text),        self._skills_db),
-            "experience":     extract_experience(sections.get("experience", ""),  self._job_roles_db),
+            "experience":     extract_experience(sections.get("experience", ""),  self._job_roles_db, self._skills_db),
             "projects":       extract_projects(sections.get("projects", ""),      self._skills_db),
             "certifications": extract_certificates(sections.get("certificates", ""), self._certs_db),
+            "text" : raw_text,
+            "resume_type": resume_type,
+            "design_details": design_details
         }

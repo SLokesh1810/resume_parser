@@ -14,10 +14,12 @@ Run:
 """
 
 import sys
+import json
 from pathlib import Path
+from resume_parser import parse_resume, hash_resume
+from resume_scoring import scorer
 
-# ── Optional: only needed on Windows when Poppler is not on the system PATH ──
-POPPLER_PATH = r"C:\poppler-25.12.0\Library\bin"   # set to None on Linux/macOS
+POPPLER_PATH = r"C:\poppler-25.12.0\Library\bin"
 RESOURCE_DIR = Path("resume_parser") / "Resource files"
 
 
@@ -28,24 +30,32 @@ def main():
 
     resume_path = sys.argv[1]
 
-    from resume_parser import parse_resume, hash_resume
-
-    # ── Hash first (cheap) ────────────────────────────────────────────────────
+    # ── Hash ────────────────────────────────────────────────────
     file_hash = hash_resume(resume_path)
     print(f"[INFO] Resume hash (sha256): {file_hash}")
 
-    # TODO: check file_hash against your database here before parsing
-
-    # ── Parse and get JSON ────────────────────────────────────────────────────
+    # ── Parse ───────────────────────────────────────────────────
     print(f"[INFO] Parsing: {resume_path}")
+
     json_str = parse_resume(
-        path         = resume_path,
-        resource_dir = RESOURCE_DIR,
-        poppler_path = POPPLER_PATH,
+        path=resume_path,
+        resource_dir=RESOURCE_DIR,
+        poppler_path=POPPLER_PATH,
     )
 
-    # ── Print JSON to stdout ──────────────────────────────────────────────────
-    print(json_str)
+    data = json.loads(json_str)
+    text = data.get('text', "")
+    resume_type = data.get('resume_type', '')
+    design_details = data.get('design_details', '')
+    data = dict(data)
+    data.pop('text', None)
+    data.pop('resume_type', None)
+    data.pop('design_details', None)
+
+    print(json.dumps(data, indent=4))
+
+    score = scorer.resume_score(text, data, resume_type, design_details)
+    print(json.dumps(score, indent=4))
 
 
 if __name__ == "__main__":

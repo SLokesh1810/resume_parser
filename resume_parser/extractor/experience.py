@@ -34,7 +34,7 @@ COMPANY_REGEX = r"""
 """
 
 
-def extract_experience(exp_text: str, job_roles_db: list[dict]) -> list[dict]:
+def extract_experience(exp_text: str, job_roles_db: list[dict], skills_db: list[dict]) -> list[dict]:
     """
     Extract work-experience entries from *exp_text*.
 
@@ -109,6 +109,7 @@ def extract_experience(exp_text: str, job_roles_db: list[dict]) -> list[dict]:
             "category":    entry["category"]  if entry else None,
             "company":     None,
             "duration":    None,
+            "skills":      [],
             "description": None,
         }
 
@@ -130,6 +131,12 @@ def extract_experience(exp_text: str, job_roles_db: list[dict]) -> list[dict]:
         cm = re.search(COMPANY_REGEX, block, re.VERBOSE)
         if cm:
             exp["company"] = cm.group(1).strip()
+
+        for skill in skills_db:
+            for alias in skill["aliases"]:
+                if re.search(rf"\b{re.escape(alias)}\b", block):
+                    exp["skills"].append(skill["skill"])
+                    break
 
         exp["description"] = block.strip()
         experiences.append(exp)

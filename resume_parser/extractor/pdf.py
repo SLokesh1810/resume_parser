@@ -17,9 +17,32 @@ import pdfplumber
 import pytesseract
 from pdf2image import convert_from_path
 
+def extract_images_and_design(pdf_path):
+
+    image_count = 0
+    pages_with_images = 0
+    low_text_pages = 0
+
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            # Count images
+            if page.images:
+                image_count += len(page.images)
+                pages_with_images += 1
+
+            # Text density
+            words = page.extract_words()
+            if len(words) < 40:
+                low_text_pages += 1
+
+    return {
+        "image_count": image_count,
+        "pages_with_images": pages_with_images,
+        "low_text_pages": low_text_pages,
+        "total_pages": len(pdf.pages)
+    }
 
 # ── Low-level readers ────────────────────────────────────────────────────────
-
 def extract_text_from_pdf(pdf_path) -> tuple[str, str]:
     """
     Extract text from a native (text-layer) PDF using pdfplumber.
@@ -52,8 +75,7 @@ def extract_text_from_pdf(pdf_path) -> tuple[str, str]:
 
     return "\n".join(lines), "text"
 
-
-def extract_text_with_ocr(pdf_path, poppler_path=None) -> tuple[str, str]:
+def extract_text_with_ocr(images) -> tuple[str, str]:
     """
     Convert each PDF page to an image and run Tesseract OCR on it.
 
@@ -65,21 +87,15 @@ def extract_text_with_ocr(pdf_path, poppler_path=None) -> tuple[str, str]:
         (text, 'ocr') — OCR text and a type-tag.
     """
     text = ""
-    kwargs = {"poppler_path": poppler_path} if poppler_path else {}
-    images = convert_from_path(pdf_path, **kwargs)
 
     for img in images:
         text += pytesseract.image_to_string(img) + "\n"
-
-    # Strip non-ASCII artefacts introduced by Tesseract
-    text = re.sub(r"[^\x00-\x7F]+", " ", text)
 
     return text, "ocr"
 
 
 # ── Smart dispatcher ─────────────────────────────────────────────────────────
-
-def extract_pdf(pdf_path, poppler_path=None, extractors: dict = None) -> tuple[str, str]:
+def extract_pdf(pdf_path, poppler_path=None, extractors: dict = None):
     """
     Try text-based extraction first; fall back to OCR if quality is poor.
 
@@ -103,10 +119,10 @@ def extract_pdf(pdf_path, poppler_path=None, extractors: dict = None) -> tuple[s
     failed_checks = 0
 
     if extractors:
-        sections      = extractors["sections"](cleaned)
-        skills        = extractors["skills"](sections.get("skills", cleaned))
-        education     = extractors["education"](sections.get("education", ""))
-        experience    = extractors["experience"](sections.get("experience", ""))
+        sections   = extractors["sections"](cleaned)
+        skills     = extractors["skills"](sections.get("skills", cleaned))
+        education  = extractors["education"](sections.get("education", ""))
+        experience = extractors["experience"](sections.get("experience", ""))
 
         if not sections:
             failed_checks += 1
@@ -115,12 +131,19 @@ def extract_pdf(pdf_path, poppler_path=None, extractors: dict = None) -> tuple[s
         if not education and not experience:
             failed_checks += 1
     else:
-        # No extractors supplied — use a basic heuristic: empty text = bad
         if len(cleaned) < 100:
             failed_checks = 2
 
-    if failed_checks >= 2:
-        print("[INFO] Weak text extraction → OCR fallback")
-        return extract_text_with_ocr(pdf_path, poppler_path=poppler_path)
+    kwargs = {"poppler_path": poppler_path} if poppler_path else {}
+    images = convert_from_path(pdf_path, **kwargs)
+    design_details = extract_images_and_design(pdf_path)
 
-    return text, "text"
+    #  TEXT PATH
+    if failed_checks < 2:
+        return text, "text", design_details
+
+    #  OCR PATH
+    print("[INFO] Weak text extraction → OCR fallback")
+    ocr_text, _ = extract_text_with_ocr(images)
+
+    return ocr_text, "ocr", design_details

@@ -49,6 +49,9 @@ def extract_projects(project_text: str, skills_db: list[dict]) -> list[dict]:
             "description": None,
         }
 
+        # ── Description ──────────────────────────────────────────────────────
+        project["description"] = block.strip()
+
         # ── Links ────────────────────────────────────────────────────────────
         links = re.findall(LINK_REGEX, block)
         if links:
@@ -77,9 +80,6 @@ def extract_projects(project_text: str, skills_db: list[dict]) -> list[dict]:
         title_parts = re.split(r"[–\-:]", block, maxsplit=1)
         title_raw = title_parts[0]
         project["title"] = re.sub(r"^\d+\.\s*", "", title_raw).strip()
-
-        # ── Description ──────────────────────────────────────────────────────
-        project["description"] = block.strip()
 
         projects.append(project)
 
